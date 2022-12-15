@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--darkBlue);
+  background-image: url(../../public/assets/bgHeader.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.containText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  margin-left: 100PX;
+}
+
+.title {
+  color: var(--white);
+  font-size: 70px;
+}
+
+.parrafo {
+  color: var(--white);
+  font-size: 18px;
+}
+
+.btnProductos {
+  display: block;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--lightBlue);
+  text-decoration: none;
+  color: var(--white);
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.btnProductos:hover {
+  box-shadow: 0 0 15px var(--lightBlue);
+}
+
+.test {
+  width: 100%;
+  height: 200vh;
+  background: #FFF;
+}
